@@ -1,0 +1,6 @@
+{
+  "liveSassCompile.settings.compileOnWatch": true,
+  "liveSassCompile.settings.autoprefix": [
+    
+  ]
+}
