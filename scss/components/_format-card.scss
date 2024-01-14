@@ -12,21 +12,17 @@
     var(--color-primary-dark) 100%
   );
   border-radius: 16px;
-  transition: transform 0.3s;
   overflow: hidden;
-
-  &:hover {
-    transform: scale(1.05);
-  }
 
   &__image {
     position: absolute;
+    z-index: -1;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: -1;
   }
+  
   &__title {
     font-size: 24px;
     font-weight: 600;
